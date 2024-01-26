@@ -1,0 +1,8 @@
+{"1.2.0",
+[{<<"erlzmq">>,{pkg,<<"erlzmq_dnif">>,<<"4.1.3">>},0}]}.
+[
+{pkg_hash,[
+ {<<"erlzmq">>, <<"172C1A2AF8CA70B71A1A856BEDF9D6DA618F90D01D2676E135B515B77F785C22">>}]},
+{pkg_hash_ext,[
+ {<<"erlzmq">>, <<"41DB15D9731D760B329F398F3EF37CB1E31F6DA7B3FF3050C5F68BA523F9D9D7">>}]}
+].

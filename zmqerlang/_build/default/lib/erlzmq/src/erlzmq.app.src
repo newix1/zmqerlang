@@ -1,0 +1,11 @@
+{application,erlzmq,
+             [{pkg_name,erlzmq_dnif},
+              {description,"Erlang ZeroMQ Dirty NIF"},
+              {vsn,"4.1.3"},
+              {modules,[erlzmq,erlzmq_nif]},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {licenses,["MIT"]},
+              {links,[{"GitHub","https://github.com/lukaszsamson/erlzmq"}]},
+              {exclude_files,["c_src/*.d"]}]}.

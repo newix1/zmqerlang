@@ -1,0 +1,23 @@
+Error: function_clause
+[{rebar_plugins,'-discover_plugins/2-fun-0-',
+                [pc],
+                [{file,"/builddir/build/BUILD/rebar3-3.22.0/apps/rebar/src/rebar_plugins.erl"},
+                 {line,191}]},
+ {lists,filtermap_1,2,[{file,"lists.erl"},{line,1661}]},
+ {rebar_plugins,discover_plugins,2,
+                [{file,"/builddir/build/BUILD/rebar3-3.22.0/apps/rebar/src/rebar_plugins.erl"},
+                 {line,191}]},
+ {rebar_plugins,handle_plugins,4,
+                [{file,"/builddir/build/BUILD/rebar3-3.22.0/apps/rebar/src/rebar_plugins.erl"},
+                 {line,98}]},
+ {lists,foldl,3,[{file,"lists.erl"},{line,1594}]},
+ {rebar_plugins,install,2,
+                [{file,"/builddir/build/BUILD/rebar3-3.22.0/apps/rebar/src/rebar_plugins.erl"},
+                 {line,69}]},
+ {rebar_prv_install_deps,handle_dep,6,
+                         [{file,"/builddir/build/BUILD/rebar3-3.22.0/apps/rebar/src/rebar_prv_install_deps.erl"},
+                          {line,319}]},
+ {rebar_prv_install_deps,update_unseen_dep,9,
+                         [{file,"/builddir/build/BUILD/rebar3-3.22.0/apps/rebar/src/rebar_prv_install_deps.erl"},
+                          {line,301}]}]
+
