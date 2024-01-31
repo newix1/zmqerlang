@@ -4,7 +4,7 @@
 start_server() ->
     {ok, Context} = erlzmq:context(),
     {ok, Socket} = erlzmq:socket(Context, rep),
-    ok = erlzmq:bind(Socket, "tcp://127.0.0.1:8091"),
+    ok = erlzmq:bind(Socket, "ipc:///tmp/tester"),
 
     handle(Socket).
 

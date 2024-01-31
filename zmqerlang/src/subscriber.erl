@@ -9,7 +9,7 @@ client() ->
     io:format("Client connects to server"),
     {ok, Context} = erlzmq:context(),
     {ok, Socket} = erlzmq:socket(Context, req),
-    ok = erlzmq:connect(Socket, "tcp://127.0.0.1:8091"),
+    ok = erlzmq:connect(Socket, "ipc:///tmp/tester"),
     handle(Socket).
 
 send(Pid, Msg) ->
